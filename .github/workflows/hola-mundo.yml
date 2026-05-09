@@ -1,5 +1,5 @@
-name: "Aprendiendo Github Actions | hola-mundo"
-run-name: ¡Estoy aprendiendo github Actions!
+name: "Aprendiendo Github Actions"
+run-name: ¡Estoy aprendiendo github Actions | hola-mundo!
 
 on: [push]
 
@@ -15,3 +15,7 @@ jobs:
 
       - name: Imprimiendo mi hola mundo de mi archivo hola-mundo.js
         run: node hola-mundo.js
+
+
+
+# issues en git -> que es, investigar? es importante que lo sepa.
