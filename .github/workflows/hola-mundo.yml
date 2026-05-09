@@ -1,4 +1,5 @@
-name: "hola-mundo"
+name: "Aprendiendo Github Actions | hola-mundo"
+run-name: ¡Estoy aprendiendo github Actions!
 
 on: [push]
 
