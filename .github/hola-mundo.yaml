@@ -13,4 +13,4 @@ jobs:
         uses: actions/setup-node@v6
 
       - name: Imprimiendo mi hola mundo de mi archivo hola-mundo.js
-        run: hola-mundo.js
+        run: node hola-mundo.js
