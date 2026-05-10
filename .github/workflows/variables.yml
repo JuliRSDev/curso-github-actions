@@ -3,7 +3,7 @@ run-name: ¡Estoy aprendiendo a usar Variables!
 on:
   workflow_dispatch
 env:
-  DIA_DE_SEMANA: DOMINGO
+  DIA_DE_SEMANA: Domingo
 jobs:
   saludo-variables:
     runs-on: ubuntu-latest
