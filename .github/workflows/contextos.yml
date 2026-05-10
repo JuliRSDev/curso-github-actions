@@ -1,0 +1,12 @@
+name: Contexto
+run-name: ¡Estoy aprendiendo a usar Contextos!
+on: push
+jobs:
+  check-main:
+    if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Desplegando en la rama $GITHUB_REF en el repositorio ${{ github.repository }}"
+
+# ${{ github.repository }} = nos da el nombre del repositorio el cual estamos.
+# ${{ github.ref }} = nos indica en que rama estamos.
